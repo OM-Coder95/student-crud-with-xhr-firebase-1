@@ -1,0 +1,92 @@
+/* STUDENT FORM
+    */
+.studentForm {
+    width: 100%;
+}
+
+.formCard {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.formCardHeader {
+    background-color: #0d6efd;
+    color: #fff;
+    text-align: center;
+}
+
+.formCardBody {
+    padding: 25px;
+}
+
+.formCardControl {
+    border-radius: 6px;
+}
+
+.formCardControl:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+.formCardFooter {
+    padding: 15px 25px;
+}
+
+/* STUDENT TABLE */
+
+.studentContainer {
+    margin-bottom: 30px;
+}
+
+.studentContainer .stdCard {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.studentContainer .stdCardBody {
+    padding: 20px;
+}
+
+.studentContainer table {
+    margin-bottom: 0;
+}
+
+.studentContainer thead {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.studentContainer th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.studentContainer td {
+    vertical-align: middle;
+}
+
+/* ACTION BUTTONS */
+
+.editBtn,
+.deleteBtn {
+    min-width: 65px;
+}
+
+/* SPINNER OVERLAY */
+
+.spinnerOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.7);
+}
